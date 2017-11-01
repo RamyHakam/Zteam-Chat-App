@@ -1,0 +1,29 @@
+{
+  "name": "zteam-chat-app",
+  "version": "1.0.0",
+  "description": "chat app stand alone demo depends on zteam-chat package for real time chat example ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha server/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-Team-Pro/Zteam-Chat-App.git"
+  },
+  "keywords": [
+    "chat-app",
+    "zteam-chat",
+    "real-time-chat"
+  
+  ],
+  "author": "Ramy Hakam <pencilsoft1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z-Team-Pro/Zteam-Chat-App/issues"
+  },
+  "homepage": "https://github.com/Z-Team-Pro/Zteam-Chat-App#readme",
+  "dependencies": {
+    "zteam-chat": "^1.1.0"
+  }
+}
